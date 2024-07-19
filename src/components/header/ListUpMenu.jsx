@@ -1,4 +1,4 @@
-import styles from "ListUpMenu.module.css"
+import styles from "./ListUpMenu.module.css"
 //
 function ListUpMenu() {
   const namesLiMenuUp = ["File", "Home", "Insert", "Draw",

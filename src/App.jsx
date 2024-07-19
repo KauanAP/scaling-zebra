@@ -1,5 +1,5 @@
 import './App.css'
-import ListUpMenu from "components/header/ListUpMenu.jsx"
+import ListUpMenu from "./components/header/ListUpMenu.jsx"
 //
 function App() {
   return (
