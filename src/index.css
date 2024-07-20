@@ -1,5 +1,27 @@
+* {
+  scrollbar-width: auto;
+  scrollbar-color: rgb(141, 176, 190) rgb(23, 28, 41);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(141, 176, 190);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(23, 28, 41);
+  border-radius: 20px;
+  border: 3px solid rgb(141, 176, 190);
+}
+
 body {
   margin: 0;
+  width: 500vh;
+  height: 2000vh;
+  background-color: rgb(142, 168, 180);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

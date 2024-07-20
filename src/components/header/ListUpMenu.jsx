@@ -7,13 +7,13 @@ function ListUpMenu() {
     ]
   return (
     <>
-    <ul className="UL_UpMenuClass">
+    <ul className={styles.UL_UpMenuClass}>
         {namesLiMenuUp.map(names => (
-          <li className="LiUpMenuClass">{names}</li>
+          <li className={styles.LiUpMenuClass}>{names}</li>
         ))}
     </ul>
     </>
   )
 }
-
+//
 export default ListUpMenu
