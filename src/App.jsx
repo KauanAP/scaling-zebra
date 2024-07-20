@@ -1,29 +1,25 @@
-import './App.css';
-
+import './App.css'
+import ListUpMenu from "./components/header/ListUpMenu.jsx"
+//
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+    <>
+      <header>
+        <nav className="topMenu">
+        <img src="https://kauanap.github.io/Excel/img/excel.png" width="40px" height="40px" alt="Blue Excel Logo" />
+          <ListUpMenu />
+        </nav>
+        <div className='menuFunctions'>
+          <div className='primaryFunctions'></div>
+          <div></div>
+        </div>
       </header>
-    </div>
-  );
+      <main>
+        <input type="text" />
+        
+      </main>
+    </>
+  )
 }
-
-export default App;
+//
+export default App

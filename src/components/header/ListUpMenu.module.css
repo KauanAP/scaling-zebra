@@ -1,0 +1,10 @@
+.UL_UpMenuClass{
+  list-style: none;
+  display: flex;
+}
+
+.LiUpMenuClass{
+  cursor: pointer;
+  margin-right: 10px;
+  color: white;
+}
